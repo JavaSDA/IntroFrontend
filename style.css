@@ -1,0 +1,82 @@
+body {
+  /* font-size: 10px; */
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+  /* padding: 10px; */
+}
+
+.links {
+  background-color: white;
+  border: 5px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+
+p span {
+  color: red;
+  font-size: 2rem;
+  /* float: left; */
+  display: inline-block;
+}
+
+img {
+  /* float: left; */
+  display: inline;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 2rem;
+}
+
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+/* css comment */
+/* 
+  selector - an identifier to a unique element 
+  or a target group of elements
+
+  specificity - refers to  the degree of uniqueness of the selector
+  
+  id - used for referring to a specific element in the html code
+  tag - refers directly to tags in the document
+  class - used to group multiple elements that share similar styles
+  P.S - Don't forget the little dot in front of your class declaration
+
+  pseudo selectors are used to alter certain properties of our tags
+
+  box model
+  padding - represents the internal space of an element
+  margin - represents the external space of an element
+
+  The default and most basic unit of size in css is pixels(px)
+
+  em, rem - more units of size
+
+  block elements are elements that have a width and a height attached to them as properties
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+/* tag selector */
+form {
+  text-align: left;
+}
+
+/* class selector */
+.form-style {
+  background-color: aquamarine;
+  color: blue;
+  font-size: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* id selector */
+#new-div {
+  background-color: bisque;
+}
